@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:clamp(500px, 80vw, 1200px);
+    display: flex;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100vh;  
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    margin: 0,10px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    
+}
+.one{
+    /* border: 2px solid yellow; */
+    margin: 10px;
+    padding:10px;
+    align-items: center;
+    display: flex;
+
+}
+.two{
+    /* border: 2px solid yellow; */
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+
+}
+.three{
+    /* border: 2px solid yellow; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    margin: 10px;
+    /* border: 2px solid blue; */
+    height: 70%;
+    background-color: #F7F7F4;
+
+}
+.left{
+    /* border: 2px solid pink; */
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    /* border: 2px solid pink; */
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    
+}
+.para{
+    /* border: 2px solid pink; */
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 50%;
+    
+}
+.buts{
+    /* border: 2px solid pink; */
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+#par1{
+    text-decoration: underline;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    
+    border: 2px solid black;
+    cursor: pointer;
+    background-color:#359674 ;
+    color: white;
+}
+#but2{
+    background-color:#b8e377;
+    color: black;
+}
+#para2{
+    color: rgb(59, 59, 59);
+}
